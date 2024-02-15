@@ -226,6 +226,10 @@
     .nav-link:hover {
       color: white
     }
+
+    #video {
+      margin-top: 10px;
+    }
     
     @media screen and (max-width: 550px) {
     body {
