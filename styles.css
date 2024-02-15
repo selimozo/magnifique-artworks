@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+      background-color:#483D8B;
+      font-family: tahoma;
+      letter-spacing: 0.8px;
+      color: white;
+    }
+    
+    #header {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;    
+      width: 100%;
+      background-color:hsl(236, 37%, 25%);
+      }
+    
+    #header-img {
+      width:20vw;
+      height: 30px;
+      margin:15px 15px;
+    }
+    
+    ul {
+      display:flex;
+    }
+    
+    li {
+      list-style-type: none;
+      padding: 15px;
+    }
+    
+    #hero {
+      display:flex;
+      justify-content:center;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+      margin: 10px;
+    }
+    
+    #form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      gap: 10px;
+    }
+    
+    h2 {
+      padding: 10px;
+      font-size: 20px;
+      font-family: Archivo;
+    
+    }
+    
+    p {
+      padding: 10px 100px 10px 15px;
+    
+    }
+    .icon {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color: #FF595A;
+      text-shadow: 3px 2px 2px black;
+      width:20vw;
+      font-size: 2.5rem;
+      height: 125px;
+    }
+    
+    .container {
+      padding: 20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .desc {
+      width:80vw;
+      padding:1px;
+      height: 125px;
+    }
+    #video {
+      display:flex;
+      justify-content: center;
+    }
+    
+    .products, .product-ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height:0.10;
+      
+    }
+    .products {
+      border: 2px solid black;
+      border-radius: 3%;
+      width: 30%;
+      background-color: #F2D4D6;
+    }
+    
+    .container-side{
+    margin:auto;
+    width:560px;
+    display:flex;
+    margin-top:40px;
+    justify-content: space-between;
+    align-items:center;
+    gap: 20px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    }
+    
+    .price {
+      font-weight: bold;
+    }
+    
+    h3 {
+      padding:20px 0;
+      color:#213F99;
+      
+    }
+    
+    button {
+      font-family: tahoma;
+      font-weight:bold;
+      background-color:#F1C40F;
+      padding:5px;
+      margin: 15px 0;
+      border: 0px;
+      cursor:pointer;
+      transition: all 0.5s ease-out;
+    }
+    
+    button:hover {
+      background-color: orange;
+    }
+    
+    #footer {
+      display:flex;
+      background-color: #DDDDDD;
+      width:80vw;
+      margin: auto;
+      margin-top:30px;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    span{
+      padding: 0px 15px 15px;
+      color: darkblue;
+    }
+    
+    #email {
+      padding: 2px 5px;
+      font-family: tahoma;
+      font-size: 15px;
+    }
+    
+    #submit {
+      font-family: tahoma;
+      padding: 5px;
+      background-color: #FFCE32;
+      margin: 15px 0;
+      font-size: 15px;
+      transition: all 0.5s ease-out;
+    }
+    
+    #submit:hover {
+      background-color: #FF8C00;
+      cursor: pointer;
+    }
+    
+    #product-title {
+      text-align: center;
+      margin-top: 20px;
+      font-family: Bebas Neue;
+      font-size: 30px;
+      background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+    }
+    
+    #hero-title {
+      font-family: Bebas Neue;
+      font-size: 40px;
+      padding: 20px;
+    
+      background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+    
+      margin-top: 90px;
+    
+    }
+    
+    a {
+      text-decoration: none;
+      color: #008B8B;
+    }
+    
+    a:hover {
+      color: #01257D;
+    }
+    
+    .product-ul li {
+      color: black;
+    }
+    
+    .nav-link {
+      padding: 5px 15px;
+      color: #DDDDDD
+    }
+    
+    .nav-link:hover {
+      color: white
+    }
+    
+    @media screen and (max-width: 550px) {
+    body {
+      font-size: 11px
+    }
+    
+    h2 {
+      font-size: 15px;}
+    }
